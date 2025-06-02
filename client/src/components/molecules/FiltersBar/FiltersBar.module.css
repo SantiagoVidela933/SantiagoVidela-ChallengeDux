@@ -1,0 +1,14 @@
+.filtersContainer {
+  margin-bottom: 1rem;
+  gap: 1rem;
+  align-items: center;
+  display: flex;
+}
+
+.inputFlex {
+  flex: 1;
+}
+
+.dropdownFixed {
+  width: 200px;
+}

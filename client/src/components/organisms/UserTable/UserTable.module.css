@@ -1,0 +1,40 @@
+.dataTable :global(.p-datatable) {
+  font-size: 0.85rem; 
+  line-height: 1.2;
+}
+
+.dataTable :global(.p-datatable-thead > tr > th),
+.dataTable :global(.p-datatable-tbody > tr > td) {
+  padding: 0.4rem 0.6rem; 
+}
+
+.dataTable :global(.p-datatable-tbody > tr) {
+  height: 2.2rem;
+}
+
+.dataTable :global(.p-paginator) {
+  padding: 0.3rem 0; 
+}
+
+.actions {
+  display: flex;
+  gap: 0.3rem;
+  justify-content: center;
+}
+
+.actionsHeader {
+  text-align: center;
+  width: 100px; 
+}
+
+.actionsColumn {
+  display: flex;
+  justify-content: center;
+  gap: 0.3rem;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.sortIcon{
+  padding-left: 0.5rem;
+}

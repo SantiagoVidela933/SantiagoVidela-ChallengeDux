@@ -1,0 +1,37 @@
+.button {
+  border: none;
+  background-color: transparent;
+  padding: 0.3rem 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s ease;
+  color: #0763e7;
+}
+
+.button i {
+  font-size: 1.1rem;
+}
+
+.button:hover {
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+.edit {
+  color: #0763e7;
+}
+
+.edit:hover {
+  background-color: rgba(59, 130, 246, 0.15);
+}
+
+.delete {
+  color: #ef4444;
+}
+
+.delete:hover {
+  background-color: rgba(239, 68, 68, 0.15);
+}

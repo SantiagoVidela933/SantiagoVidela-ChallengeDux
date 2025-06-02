@@ -1,0 +1,17 @@
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.formGroup label {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}

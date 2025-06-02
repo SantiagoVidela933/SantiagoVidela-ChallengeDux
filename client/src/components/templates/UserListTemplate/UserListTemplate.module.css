@@ -1,0 +1,32 @@
+.dialogBox {
+  width: 30rem;
+}
+
+.dialogHeader {
+  background-color: #0763e7;
+  color: white;
+}
+
+.dialogMessage {
+  padding: 1rem;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.dialogButtons {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.headerContainer {
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+}
